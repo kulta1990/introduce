@@ -1,0 +1,55 @@
+ @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+
+ footer {
+   text-align: center;
+   font-weight: 500;
+   font-size: 1.5rem;
+   background-color: rgb(83, 81, 81);
+   box-shadow: 0px 0px 30px rgb(253, 253, 253);
+   color: rgb(199, 189, 189);
+   font-family: 'Unbounded', cursive;
+ }
+
+ .navbar {
+   background-color: rgb(83, 81, 81);
+   box-shadow: 0px 0px 30px rgb(253, 253, 253);
+ }
+
+ hr {
+   margin-bottom: 1cm;
+ }
+
+ #me {
+   margin-top: 0.2cm;
+   margin-bottom: 0.2cm;
+   width: 130px;
+   border-radius: 10px;
+   box-shadow: 2px 0px 3px rgb(122, 123, 126);
+   margin-right: 2cm;
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Cairo');
+
+ body {
+   background-color: rgb(55, 57, 55);
+ }
+
+ #span1 {
+   display: inline-block;
+   position: absolute;
+   margin-left: 20cm;
+ }
+
+ #span2 {
+   display: inline-block;
+   position: absolute;
+   margin-left: 17.3cm;
+ }
+
+ @media screen and (max-width: 1333px) {
+
+   #span1,
+   #span2 {
+     display: none;
+   }
+ }

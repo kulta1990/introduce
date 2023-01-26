@@ -1,0 +1,85 @@
+#div1 {
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  margin-left: 2cm;
+  width: 450px;
+  display: inline-block;
+  object-fit: cover;
+
+}
+
+@media screen and (max-width: 787px) {
+
+  #div1,
+  #div2,
+  #map {
+    width: auto;
+    margin: 10px;
+  }
+}
+
+
+#div2 {
+  display: inline-block;
+  margin-top: 2cm;
+  margin-left: 2cm;
+  max-width: 600px;
+  padding-top: 2cm;
+  object-fit: contain;
+  overflow-x: auto;
+}
+
+#map {
+  position: relative;
+  box-shadow: 0px 0px 5px rgb(253, 253, 253);
+
+}
+
+.container {
+  background-color: rgb(177, 174, 170);
+  box-shadow: 0px 0px 30px rgb(253, 253, 253);
+
+}
+
+.container-fluid {
+  background-color: rgb(128, 121, 114);
+}
+
+table {
+
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgb(253, 253, 253);
+  background-color: rgb(19, 167, 51);
+  color: rgb(247, 249, 252);
+  animation-name: example;
+  animation-duration: 4s;
+
+}
+
+@keyframes example {
+  from {
+    background-color: rgb(246, 171, 65);
+  }
+
+  to {
+    background-color: rgb(22, 176, 56);
+  }
+}
+
+th {
+
+  font-size: 1.4rem;
+  border-bottom: 2px;
+  border-color: rgb(25, 239, 40);
+  border-style: solid;
+
+}
+
+th,
+td {
+
+  font-size: 1.1rem;
+  padding: 22px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
